@@ -85,6 +85,10 @@
     #import "MPKitLocalytics.h"
 #endif
 
+#if defined(MP_KIT_PRIMER)
+    #import "MPKitPrimer.h"
+#endif
+
 #if defined(MP_KIT_TUNE)
     #import "MPKitTune.h"
 #endif
@@ -328,6 +332,11 @@ NSString *const kitFileExtension = @"eks";
 #if defined(MP_KIT_LOCALYTICS)
         case MPKitInstanceLocalytics:
             kit = [[MPKitLocalytics alloc] initWithConfiguration:configuration startImmediately:NO];
+            break;
+#endif
+#if defined(MP_KIT_PRIMER)
+        case MPKitInstancePrimer:
+            kit = [[MPKitPrimer alloc] initWithConfiguration:configuration];
             break;
 #endif
 #if defined(MP_KIT_TUNE)
@@ -1842,6 +1851,9 @@ NSString *const kitFileExtension = @"eks";
 #endif
 #if defined(MP_KIT_LOCALYTICS)
                                            @(MPKitInstanceLocalytics),
+#endif
+#if defined(MP_KIT_PRIMER)
+                                           @(MPKitInstancePrimer),
 #endif
 #if defined(MP_KIT_TUNE)
                                            @(MPKitInstanceTune),

@@ -169,7 +169,9 @@ typedef NS_ENUM(NSUInteger, MPKitInstance) {
     /** Kit code for AppsFlyer */
     MPKitInstanceAppsFlyer = 92,
     /** Kit code for Tune */
-    MPKitInstanceTune = 32
+    MPKitInstanceTune = 32,
+    /** Kit code for Primer */
+    MPKitInstancePrimer = 42
 };
 
 /// Log Levels

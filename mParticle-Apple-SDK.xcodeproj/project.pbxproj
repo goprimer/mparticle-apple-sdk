@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844A80571CAF205D0059F014 /* MPKitPrimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 844A80551CAF205D0059F014 /* MPKitPrimer.h */; };
+		844A80581CAF205D0059F014 /* MPKitPrimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A80561CAF205D0059F014 /* MPKitPrimer.m */; };
 		C9049A701C56C1DE005F11EA /* mParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = C90499D31C56B8DF005F11EA /* mParticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9049A711C56C1DE005F11EA /* mParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = C90499D31C56B8DF005F11EA /* mParticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9049A721C56C231005F11EA /* mParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = C90499D41C56B8DF005F11EA /* mParticle.m */; };
@@ -418,6 +420,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		844A80551CAF205D0059F014 /* MPKitPrimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPKitPrimer.h; sourceTree = "<group>"; };
+		844A80561CAF205D0059F014 /* MPKitPrimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPKitPrimer.m; sourceTree = "<group>"; };
 		C90499271C56B8DE005F11EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Framework/Info.plist; sourceTree = "<group>"; };
 		C90499291C56B8DE005F11EA /* mParticle-Apple-SDK.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = "mParticle-Apple-SDK.modulemap"; path = "Framework/mParticle-Apple-SDK.modulemap"; sourceTree = "<group>"; };
 		C904992C1C56B8DE005F11EA /* MPAppDelegateProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAppDelegateProxy.h; sourceTree = "<group>"; };
@@ -704,6 +708,15 @@
 			);
 			sourceTree = "<group>";
 		};
+		844A80541CAF205D0059F014 /* Primer */ = {
+			isa = PBXGroup;
+			children = (
+				844A80551CAF205D0059F014 /* MPKitPrimer.h */,
+				844A80561CAF205D0059F014 /* MPKitPrimer.m */,
+			);
+			path = Primer;
+			sourceTree = "<group>";
+		};
 		C904992A1C56B8DE005F11EA /* mParticle-Apple-SDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -859,6 +872,7 @@
 				C90499921C56B8DF005F11EA /* Kahuna */,
 				C90499951C56B8DF005F11EA /* Kochava */,
 				C904999A1C56B8DF005F11EA /* Localytics */,
+				844A80541CAF205D0059F014 /* Primer */,
 				DB4924DA1C76776B00D473A3 /* Tune */,
 				C90499AD1C56B8DF005F11EA /* Wootric */,
 				C904999D1C56B8DF005F11EA /* MPAttributeProjection.h */,
@@ -1246,6 +1260,7 @@
 				C9049B261C56C353005F11EA /* MPAttributeProjection.h in Headers */,
 				C9049B0A1C56C32D005F11EA /* MPProduct.h in Headers */,
 				C9049A941C56C2EF005F11EA /* MPSurrogateAppDelegate.h in Headers */,
+				844A80571CAF205D0059F014 /* MPKitPrimer.h in Headers */,
 				C9049AB01C56C31D005F11EA /* MPDataModelAbstract.h in Headers */,
 				C9049B791C56C3C5005F11EA /* MPMediaTrackContainer.h in Headers */,
 				C9049B701C56C3C5005F11EA /* MPMediaMetadataOCR.h in Headers */,
@@ -1578,6 +1593,7 @@
 				C9049B551C56C386005F11EA /* MPKitKahuna.m in Sources */,
 				C9049B2D1C56C353005F11EA /* MPKitAbstract.mm in Sources */,
 				C9049B761C56C3C5005F11EA /* MPMediaTrack+Internal.mm in Sources */,
+				844A80581CAF205D0059F014 /* MPKitPrimer.m in Sources */,
 				C9049AC41C56C31D005F11EA /* MPStandaloneUpload.m in Sources */,
 				C9049BFE1C56C436005F11EA /* MPZip.cpp in Sources */,
 				C9049B331C56C353005F11EA /* MPKitExecStatus.m in Sources */,
