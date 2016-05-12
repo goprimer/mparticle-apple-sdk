@@ -171,7 +171,7 @@ typedef NS_ENUM(NSUInteger, MPKitInstance) {
     /** Kit code for Tune */
     MPKitInstanceTune = 32,
     /** Kit code for Primer */
-    MPKitInstancePrimer = 42
+    MPKitInstancePrimer = 100
 };
 
 /// Log Levels
